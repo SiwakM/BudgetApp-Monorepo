@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79df3bdd-81a3-496f-8a0e-7a4c3b0a653d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/config/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/controller/DebtGraphQLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/controller/GroupGraphQLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/controller/GroupTransactionGraphQLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/controller/InfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/controller/MembershipGraphQLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/controller/TransactionGraphQLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/dto/BalanceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/dto/DebtDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/dto/GroupDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/dto/GroupResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/dto/GroupTransactionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/dto/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/dto/MembershipDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/dto/MembershipResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/exception/GraphQLExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/model/Debt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/model/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/model/Membership.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/repository/DebtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/repository/GroupRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/repository/MembershipRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/security/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/service/CurrentUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/service/DebtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/service/GroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/service/GroupTransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/service/MembershipService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/websocket/GroupNotificationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphql/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PASiR_Lab01_Siwak_Mateusz.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PProgJavaSem4_Lab02_Siwak_Mateusz.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/controller/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/controller/TransactionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/dto/TransactionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/dto/TransactionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/model/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/repository/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/repository/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pk/ms/pasir_siwak_mateusz/service/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3D07NLcUh1f8sDmVc9kVPaMo8X6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.docker.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.PasirSiwakMateuszApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/matsi/Downloads/Mateusz_Siwak_LK12",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matsi\Desktop\nauka\rok2\semestr2\Java\PASiR_Lab01_Siwak_Mateusz\docker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PasirSiwakMateuszApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="PASiR_Lab01_Siwak_Mateusz" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="PASiR_Lab01_Siwak_Mateusz" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PasirSiwakMateuszApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="PASIR_Siwak_Mateusz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pk.ms.pasir_siwak_mateusz.PasirSiwakMateuszApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="C:\Users\matsi\Desktop\nauka\rok2\semestr1\Java\PASiR_Lab011_Siwak_Mateusz\PASiR_Lab010_Siwak_Mateusz\.env" />
+          <option name="envFilePaths">
+            <list>
+              <option value="C:\Users\matsi\Desktop\nauka\rok2\semestr1\Java\PASiR_Lab011_Siwak_Mateusz\PASiR_Lab010_Siwak_Mateusz\.env" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker" />
+      <item itemvalue="Spring Boot.PasirSiwakMateuszApplication" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.54" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28539.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79df3bdd-81a3-496f-8a0e-7a4c3b0a653d" name="Changes" comment="" />
+      <created>1777407091465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777407091465</updated>
+      <workItem from="1777407092697" duration="5575000" />
+      <workItem from="1777716562186" duration="630000" />
+      <workItem from="1778777089388" duration="5175000" />
+      <workItem from="1778794114372" duration="2455000" />
+      <workItem from="1779266008321" duration="2785000" />
+      <workItem from="1779269000514" duration="135000" />
+      <workItem from="1779269444186" duration="513000" />
+      <workItem from="1780330362126" duration="448000" />
+      <workItem from="1780331160850" duration="26000" />
+      <workItem from="1780331210640" duration="99000" />
+      <workItem from="1780331327197" duration="91000" />
+      <workItem from="1780331431303" duration="23000" />
+      <workItem from="1780331470393" duration="73000" />
+      <workItem from="1780331554465" duration="63000" />
+      <workItem from="1780331624883" duration="41000" />
+      <workItem from="1780331677692" duration="735000" />
+      <workItem from="1780946204686" duration="2675000" />
+      <workItem from="1780952244033" duration="3260000" />
+      <workItem from="1780995464367" duration="2216000" />
+      <workItem from="1781080575568" duration="3543000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
